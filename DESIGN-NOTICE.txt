@@ -1,0 +1,13 @@
+Design attribution
+
+Visual styling adapted from Xavier’s INFS5706T32026 study companion:
+https://github.com/xavierunsw/INFS5706T32026
+
+The source repository is distributed under the Apache License, Version 2.0.
+A copy is included in LICENSE-XAVIER.txt.
+
+Modifications: adapted the visual system, responsive layout, hero, navigation,
+learning cards and section treatments for the Information Systems Ethics and
+Privacy resource. Lesson content, interactions and media remain from this resource.
+The source course content and activity cards are not reproduced.
+The UNSW Sydney logo is the branding asset referenced by the supplied repository.

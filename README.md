@@ -1,17 +1,24 @@
-# Information Systems Ethics and Privacy
+# Information Systems: Ethics and Privacy
 
-A generic introductory learning resource for UNSW courses, styled in yellow and black. Includes six sections, illustrated cases, formative checks, a lesson introduction video, two audio discussions, and YouTube embeds.
+A generic UNSW learning resource with examples, AI cases, videos, audio discussions and six practice checks. Visual styling adapted from Xavier’s INFS5706 study companion. See DESIGN-NOTICE.txt and LICENSE-XAVIER.txt for attribution.
 
-## GitHub Pages setup
+## Update GitHub Pages
 
-Create a public repository, for example `unsw-ethics-privacy`. Upload the extracted contents of this ZIP at the repository root, including `index.html`, `assets/`, `audio/`, `video/`, and `.nojekyll`. Do not upload the ZIP itself or an enclosing folder.
+1. Extract this ZIP on your computer.
+2. Upload the extracted files and folders into your repository root. Replace index.html and retain the assets, audio and video folders. Do not upload the ZIP itself.
+3. In Settings > Pages, select Deploy from a branch, main, and /(root), then Save.
+4. Wait for the deployment to finish. Your site is https://mcahalane.github.io/INFS-Ethics-and-Privacy-Lesson/ if you use that repository. Refresh after publication.
 
-In Settings → Pages choose Deploy from a branch, main, /(root), and Save. Once deployment completes, the address will be https://YOUR-USERNAME.github.io/unsw-ethics-privacy/.
+All local asset paths are relative, so the resource works in a GitHub project repository. YouTube videos load only after the learner chooses to load them. Audio and the introduction video are included locally.
 
-To replace an existing version at its existing address, upload these files to that repository instead. Updating GitHub does not automatically update the ChatGPT-hosted publication, or vice versa.
+Progress and drafts stay in the learner’s browser. Nothing is submitted. The learning checks are ungraded practice.
 
-## Notes
+## Preview
 
-No build system, API key, or server is required. Keep folder names and relative paths unchanged. The lesson code stores progress and drafts locally in the learner browser. It does not submit grades or answers. YouTube players load only on request; media does not autoplay. Hosting and YouTube may process ordinary access information.
+Open index.html in a browser or serve this folder with python3 -m http.server 8000 and visit http://localhost:8000.
 
-All six images are AI-generated illustrations. The audio and introduction video are instructor-supplied. Written summaries are not verbatim media transcripts. Source references and instructor notes appear inside the resource. Contemporary evidence was checked September 30, 2026; review developing cases before reuse. U.S. and Australian legal examples are jurisdiction-specific. This teaching resource does not imply endorsement by the organizations discussed. No blanket reuse license is asserted for supplied media or third-party material.
+## Files
+
+index.html contains the lesson and interactions. assets/ contains illustrations, the UNSW logo and the companion stylesheet. audio/ and video/ contain instructor-supplied media. .nojekyll allows static GitHub Pages publication.
+
+News cases are dated summaries; check for later findings before reuse. External media and brand assets retain their respective owners’ rights.
